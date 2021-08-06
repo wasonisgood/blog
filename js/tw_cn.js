@@ -1,6 +1,6 @@
 var defaultEncoding = 1; // 網站默認語言，1: 繁體中文, 2: 簡體中文
 var translateDelay = 0; //延遲時間,若不在前, 要設定延遲翻譯時間, 如100表示100ms,默認為0
-var cookieDomain = "https://彭威翔.台灣/"; //更改為你的博客網址
+var cookieDomain = "https://xn--xysz9jbs7a.xn--kpry57d/"; //更改為你的博客網址
 var msgToTraditionalChinese = "繁體"; //此處可以更改為你想要顯示的文字
 var msgToSimplifiedChinese = "簡體"; //同上，但兩處均不建議更改
 var translateButtonId = "translateLink"; //默認互換id
