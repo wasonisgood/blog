@@ -6,7 +6,7 @@
   <link href="https://彭威翔.台灣/atom.xml" rel="self"/>
   
   <link href="https://彭威翔.台灣/"/>
-  <updated>2021-08-06T09:46:46.064Z</updated>
+  <updated>2021-08-06T15:15:05.909Z</updated>
   <id>https://彭威翔.台灣/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Fiti新點子與蘇秘會議</title>
+    <link href="https://彭威翔.台灣/2021/11/14/fifi_point/"/>
+    <id>https://彭威翔.台灣/2021/11/14/fifi_point/</id>
+    <published>2021-11-15T07:15:13.000Z</published>
+    <updated>2021-08-06T15:15:05.909Z</updated>
+    
+    
+    <summary type="html">Fiti新點子與蘇秘會議給了實用建議</summary>
+    
+    
+    
+    <category term="會議隨記" scheme="https://彭威翔.台灣/categories/%E6%9C%83%E8%AD%B0%E9%9A%A8%E8%A8%98/"/>
+    
+    
+    <category term="紀錄" scheme="https://彭威翔.台灣/tags/%E7%B4%80%E9%8C%84/"/>
+    
+    <category term="Fiti" scheme="https://彭威翔.台灣/tags/Fiti/"/>
+    
+  </entry>
   
   <entry>
     <title>開站第一文</title>
@@ -72,27 +93,6 @@
     <category term="Hexo" scheme="https://彭威翔.台灣/tags/Hexo/"/>
     
     <category term="小白教學" scheme="https://彭威翔.台灣/tags/%E5%B0%8F%E7%99%BD%E6%95%99%E5%AD%B8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Fiti新點子與蘇秘會議</title>
-    <link href="https://彭威翔.台灣/2019/01/04/fifi_point/"/>
-    <id>https://彭威翔.台灣/2019/01/04/fifi_point/</id>
-    <published>2019-01-05T06:20:13.000Z</published>
-    <updated>2021-08-06T15:13:01.342Z</updated>
-    
-    
-    <summary type="html">Fiti新點子與蘇秘會議給了實用建議</summary>
-    
-    
-    
-    <category term="會議隨記" scheme="https://彭威翔.台灣/categories/%E6%9C%83%E8%AD%B0%E9%9A%A8%E8%A8%98/"/>
-    
-    
-    <category term="紀錄" scheme="https://彭威翔.台灣/tags/%E7%B4%80%E9%8C%84/"/>
-    
-    <category term="Fiti" scheme="https://彭威翔.台灣/tags/Fiti/"/>
     
   </entry>
   
