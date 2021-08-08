@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://彭威翔.台灣/post/%E6%8E%A8%E9%80%81%E9%80%9A%E7%9F%A5.html</loc>
+    
+    <lastmod>2021-08-08</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://彭威翔.台灣/post/korea-jp-timeline.html</loc>
     
     <lastmod>2021-08-08</lastmod>
@@ -117,6 +124,13 @@
   
   <url>
     <loc>https://彭威翔.台灣/tags/%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2021-08-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://彭威翔.台灣/tags/hexo/</loc>
     <lastmod>2021-08-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
