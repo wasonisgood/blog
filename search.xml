@@ -74,4 +74,33 @@
         <tag>生活</tag>
       </tags>
   </entry>
+  <entry>
+    <title>HEXO用RSS Feed自動網頁推播</title>
+    <url>/post/hexo-web-push.html</url>
+    <content><![CDATA[<p>本篇先教大家在HEXO啟用RSS Feed，在設定RSS Update(文章更新)時，進行網頁推播</p>
+<div class="alert alert-danger"><i class="fa fa-bug"></i> 本文使用NEXT主題，使用其他主題請參照其他教程</div>
+## Hexo新增RSS功能
+### 什麼是RSS
+    RSS的英文全稱是Really Simple Syndication，是一種透過XML(eXtensible Markup Language)特性所制定的格式，讓網站的管理者可以把網頁內容傳給訂閱戶。這是個有點像電子報和新聞群組(Newsgroup)的東西，但是賦予讀者更大的自訂能力和更豐富的資料。
+    將RSS技術應用在獲取來源端的即時訊息是一個很重要的演進，對於使用者也可以很清楚的知道這些新聞是從何而來
+### 功能實作
+首先添加npm套件，在hexo <span id="inline-blue">主題配置文件</span>下執行該命令
+``
+npm install hexo-generator-feed
+``
+然後在 hexo 根目錄下的 檔中添加配置_config.yml
+
+<p><code>feed:     type: atom     path: atom.xml     limit: 20</code><br>設定含義：</p>
+<ul>
+<li>type： RSS的類型（atom/rss2）</li>
+<li>path： 檔案路徑，預設是atom.xml</li>
+<li>limit： 展示文章的數量，使用 0 或則 false 代表展示全部</li>
+<li>hub： URL of the PubSubHubbub hubs （如果使用不到可以為空）</li>
+<li>content： （可選）設置 可以在 RSS 檔中包含文章全部內容，預設：false</li>
+<li>content_limit： （可選）摘要中使用的帖子內容的預設長度。 僅在內容設置為false且未顯示自定義帖子描述時才使用。</li>
+<li>content_limit_delim： （可選）If content_limit is used to shorten post contents， only cut at the last occurrence of this delimiter before reaching the character limit. Not used by default.</li>
+<li>order_by： 訂閱內容的順序. （預設： -date）</li>
+</ul>
+]]></content>
+  </entry>
 </search>

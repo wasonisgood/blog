@@ -6,7 +6,7 @@
   <link href="https://彭威翔.台灣/atom.xml" rel="self"/>
   
   <link href="https://彭威翔.台灣/"/>
-  <updated>2021-08-08T08:17:14.671Z</updated>
+  <updated>2021-08-10T04:32:56.701Z</updated>
   <id>https://彭威翔.台灣/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>HEXO用RSS Feed自動網頁推播</title>
+    <link href="https://彭威翔.台灣/post/hexo-web-push.html"/>
+    <id>https://彭威翔.台灣/post/hexo-web-push.html</id>
+    <published>2021-08-10T04:32:56.000Z</published>
+    <updated>2021-08-10T04:32:56.701Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;本篇先教大家在HEXO啟用RSS Feed，在設定RSS Update(文章更新)時，進行網頁推播&lt;/p&gt;
+&lt;div class=&quot;alert alert-danger&quot;&gt;&lt;i class=&quot;fa fa-bug&quot;&gt;&lt;/i&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>日治朝鮮反抗史</title>
