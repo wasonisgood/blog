@@ -81,10 +81,9 @@
 <h2 id="Hexo新增RSS功能"><a href="#Hexo新增RSS功能" class="headerlink" title="Hexo新增RSS功能"></a>Hexo新增RSS功能</h2><h3 id="什麼是RSS"><a href="#什麼是RSS" class="headerlink" title="什麼是RSS"></a>什麼是RSS</h3><pre><code>RSS的英文全稱是Really Simple Syndication，是一種透過XML(eXtensible Markup Language)特性所制定的格式，讓網站的管理者可以把網頁內容傳給訂閱戶。這是個有點像電子報和新聞群組(Newsgroup)的東西，但是賦予讀者更大的自訂能力和更豐富的資料。
 將RSS技術應用在獲取來源端的即時訊息是一個很重要的演進，對於使用者也可以很清楚的知道這些新聞是從何而來
 </code></pre>
-<h3 id="功能實作"><a href="#功能實作" class="headerlink" title="功能實作"></a>功能實作</h3><p>首先添加npm套件，在hexo <span id="inline-blue">主題配置文件</span>下執行該命令<br>``<br>npm install hexo-generator-feed</p>
+<h3 id="功能實作"><a href="#功能實作" class="headerlink" title="功能實作"></a>功能實作</h3><p>首先添加npm套件，在hexo <span id="inline-blue">主題配置文件</span>下執行該命令<br><code>bash npm install hexo-generator-feed</code></p>
 <p>然後在 hexo 根目錄下的 檔中添加配置_config.yml</p>
-<p>``<br>feed:<br>    type: atom<br>    path: atom.xml<br>    limit: 20</p>
-<p>設定含義：</p>
+<p><code>bash feed:     type: atom     path: atom.xml     limit: 20</code><br>設定含義：</p>
 <ul>
 <li>type： RSS的類型（atom/rss2）</li>
 <li>path： 檔案路徑，預設是atom.xml</li>
