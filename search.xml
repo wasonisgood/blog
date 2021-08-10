@@ -74,16 +74,4 @@
         <tag>生活</tag>
       </tags>
   </entry>
-  <entry>
-    <title>推送通知</title>
-    <url>/post/%E6%8E%A8%E9%80%81%E9%80%9A%E7%9F%A5.html</url>
-    <content><![CDATA[<p>先這樣未來更文</p>
-]]></content>
-      <categories>
-        <category>技術帖</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
 </search>
