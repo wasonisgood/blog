@@ -27,18 +27,28 @@
     var CONFIG = {"hostname":"xn--xysz9jbs7a.xn--kpry57d","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":false,"style":"mac"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="這是彭威翔的個人網站，包含轉型正義、資訊、科法等議題">
-<meta property="og:type" content="website">
-<meta property="og:title" content="燃羽之翼，誰與逐鹿">
-<meta property="og:url" content="https://彭威翔.台灣/tags/%E7%B6%B2%E9%A0%81%E6%8E%A8%E6%92%AD/index.html">
+  <meta name="description" content="本篇先教大家在HEXO啟用RSS Feed，在設定RSS Update(文章更新)時，進行網頁推播 Hexo新增RSS功能什麼是RSSRSS的英文全稱是Really Simple Syndication，是一種透過XML(eXtensible Markup Language)特性所制定的格式，讓網站的管理者可以把網頁內容傳給訂閱戶。這是個有點像電子報和新聞群組(Newsgroup)的東西，但是賦予">
+<meta property="og:type" content="article">
+<meta property="og:title" content="HEXO用RSS Feed自動網頁推播">
+<meta property="og:url" content="https://彭威翔.台灣/post/hexo-web-rss-push.html">
 <meta property="og:site_name" content="燃羽之翼，誰與逐鹿">
-<meta property="og:description" content="這是彭威翔的個人網站，包含轉型正義、資訊、科法等議題">
+<meta property="og:description" content="本篇先教大家在HEXO啟用RSS Feed，在設定RSS Update(文章更新)時，進行網頁推播 Hexo新增RSS功能什麼是RSSRSS的英文全稱是Really Simple Syndication，是一種透過XML(eXtensible Markup Language)特性所制定的格式，讓網站的管理者可以把網頁內容傳給訂閱戶。這是個有點像電子報和新聞群組(Newsgroup)的東西，但是賦予">
 <meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://i.imgur.com/ZGLFn53.png">
+<meta property="og:image" content="https://i.imgur.com/K6Bug3g.png">
+<meta property="og:image" content="https://i.imgur.com/SMx2MOB.png">
+<meta property="og:image" content="https://i.imgur.com/JBKoG4d.png">
+<meta property="og:image" content="https://i.imgur.com/HHOzZ66.png">
+<meta property="og:image" content="https://i.imgur.com/jy0hbuk.png">
+<meta property="og:image" content="https://i.imgur.com/BEToge9.png">
+<meta property="article:published_time" content="2021-08-10T07:48:27.000Z">
+<meta property="article:modified_time" content="2021-08-10T07:50:00.127Z">
 <meta property="article:author" content="彭威翔">
 <meta property="article:tag" content="轉型正義,資訊,科法">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://i.imgur.com/ZGLFn53.png">
 
-<link rel="canonical" href="https://彭威翔.台灣/tags/%E7%B6%B2%E9%A0%81%E6%8E%A8%E6%92%AD/">
+<link rel="canonical" href="https://彭威翔.台灣/post/hexo-web-rss-push.html">
 
 
 <script id="page-configurations">
@@ -46,12 +56,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'zh-TW'
   };
 </script>
 
-  <title>標籤: 網頁推播 | 燃羽之翼，誰與逐鹿</title>
+  <title>HEXO用RSS Feed自動網頁推播 | 燃羽之翼，誰與逐鹿</title>
   
 
 
@@ -196,57 +206,203 @@
         <div class="content-wrap">
           
 
-          <div class="content tag">
+          <div class="content post posts-expand">
             
 
+    
   
   
-  
-  <div class="post-block">
-    <div class="posts-collapse">
-      <div class="collection-title">
-        <h2 class="collection-header">網頁推播
-          <small>標籤</small>
-        </h2>
-      </div>
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
+    <link itemprop="mainEntityOfPage" href="https://彭威翔.台灣/post/hexo-web-rss-push.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="彭威翔">
+      <meta itemprop="description" content="這是彭威翔的個人網站，包含轉型正義、資訊、科法等議題">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="燃羽之翼，誰與逐鹿">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          HEXO用RSS Feed自動網頁推播
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">發表於</span>
+              
+
+              <time title="創建時間：2021-08-09 23:48:27 / 修改時間：23:50:00" itemprop="dateCreated datePublished" datetime="2021-08-09T23:48:27-08:00">2021-08-09</time>
+            </span>
+
+          
+            <span class="post-meta-item" title="文章字數">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-file-word-o"></i>
+              </span>
+              <span>1.2k</span>
+            </span>
+            <span class="post-meta-item" title="所需閱讀時間">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-clock-o"></i>
+              </span>
+              <span>1 分鐘</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-    <div class="collection-year">
-      <span class="collection-header">2021</span>
+        <p>本篇先教大家在HEXO啟用RSS Feed，在設定RSS Update(文章更新)時，進行網頁推播</p>
+<h2 id="Hexo新增RSS功能"><a href="#Hexo新增RSS功能" class="headerlink" title="Hexo新增RSS功能"></a>Hexo新增RSS功能</h2><h3 id="什麼是RSS"><a href="#什麼是RSS" class="headerlink" title="什麼是RSS"></a>什麼是RSS</h3><p>RSS的英文全稱是Really Simple Syndication，是一種透過XML(eXtensible Markup Language)特性所制定的格式，讓網站的管理者可以把網頁內容傳給訂閱戶。這是個有點像電子報和新聞群組(Newsgroup)的東西，但是賦予讀者更大的自訂能力和更豐富的資料。<br>將RSS技術應用在獲取來源端的即時訊息是一個很重要的演進，對於使用者也可以很清楚的知道這些新聞是從何而來</p>
+<span id="more"></span>
+
+<h3 id="功能實作"><a href="#功能實作" class="headerlink" title="功能實作"></a>功能實作</h3><p>首先添加npm套件，在hexo <span id="inline-blue">主題配置文件</span>下執行該命令</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-generator-feed</span><br></pre></td></tr></table></figure>
+
+
+<p>然後在 hexo 根目錄下的 檔中添加配置<span id="inline-yellow">_config.yml</span></p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">feed:</span></span><br><span class="line">    <span class="attr">type:</span> <span class="string">atom</span></span><br><span class="line">    <span class="attr">path:</span> <span class="string">atom.xml</span></span><br><span class="line">    <span class="attr">limit:</span> <span class="number">20</span></span><br></pre></td></tr></table></figure>
+<p>設定含義：</p>
+<ul>
+<li>type： RSS的類型（atom/rss2）</li>
+<li>path： 檔案路徑，預設是<span id="inline-yellow">atom.xml</span></li>
+<li>limit： 展示文章的數量，使用 0 或則 false 代表展示全部</li>
+<li>hub： URL of the PubSubHubbub hubs （如果使用不到可以為空）</li>
+<li>content： （可選）設置 可以在 RSS 檔中包含文章全部內容，預設：false</li>
+<li>content_limit： （可選）摘要中使用的帖子內容的預設長度。 僅在內容設置為false且未顯示自定義帖子描述時才使用。</li>
+<li>content_limit_delim： （可選）If content_limit is used to shorten post contents， only cut at the last occurrence of this delimiter before reaching the character limit. Not used by default.</li>
+<li>order_by： 訂閱內容的順序. （預設： -date）<br>然後在 theme 目錄下的 檔中添加配置<span id="inline-yellow">_config.yml</span><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">rss:</span> <span class="string">/atom.xml</span></span><br></pre></td></tr></table></figure>
+隨後重新生成博客靜態檔<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean &amp;&amp; hexo g</span><br></pre></td></tr></table></figure>
+<h2 id="Hexo配置iZooto"><a href="#Hexo配置iZooto" class="headerlink" title="Hexo配置iZooto"></a>Hexo配置iZooto</h2></li>
+</ul>
+<ol>
+<li>先在iZooto中進行<a target="_blank" rel="noopener external nofollow noreferrer" href="https://panel.izooto.com/signup">註冊</a><br><img src="https://i.imgur.com/ZGLFn53.png" alt="iZooto中進行註冊"></li>
+<li>在儀表上點擊新增網站，然後輸入網域名稱</li>
+</ol>
+<p><img src="https://i.imgur.com/K6Bug3g.png" alt="iZooto新增網站介面"><br>3. 在左邊點選Setting &gt; Setup，正中央有進行步驟</p>
+<ol start="4">
+<li>把代碼放到<code>themes\next\layout_partials\head</code>中最後一行之前<br><img src="https://i.imgur.com/SMx2MOB.png" alt="iZooto代碼範本"></li>
+<li>把下載下來的Zip解壓縮放到source資料夾</li>
+</ol>
+<p><img src="https://i.imgur.com/JBKoG4d.png" alt="把Zip下載"><br>6. 部屬到伺服器後。點選驗證。等待關閉即可</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://i.imgur.com/HHOzZ66.png" alt="點選驗證"></p>
+<h2 id="設定iZooto-Zap設定RSS推播"><a href="#設定iZooto-Zap設定RSS推播" class="headerlink" title="設定iZooto+Zap設定RSS推播"></a>設定iZooto+Zap設定RSS推播</h2><p>點擊Setting &gt; General頁面中的<a target="_blank" rel="noopener external nofollow noreferrer" href="https://zapier.com/apps/izooto/integrations/rss/16323/send-izooto-web-push-notifications-for-new-rss-items">Integration區塊</a></p>
+<ol>
+<li>選擇Try Template</li>
+</ol>
+<p><img src="https://i.imgur.com/jy0hbuk.png" alt="Try Template"></p>
+<ol start="2">
+<li>在第二關<code>set trigger</code>中feed url填入<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[你的網址]+/atom.xml</span><br></pre></td></tr></table></figure></li>
+</ol>
+<p><img src="https://i.imgur.com/BEToge9.png" alt="輸入URL"><br>3. 一路設定好，就完成了<br>4. 等待文章更新吧</p>
+
     </div>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+    
+    
+    
+      
+  <div class="popular-posts-header">推薦文章</div>
+  <ul class="popular-posts">
+    <li class="popular-posts-item">
+      <div class="popular-posts-title"><a href="\post\fifi_point.html" rel="bookmark">Fiti新點子與蘇秘會議</a></div>
+    </li>
+    <li class="popular-posts-item">
+      <div class="popular-posts-title"><a href="\post\hello-world.html" rel="bookmark">Hexo 操作指南備份</a></div>
+    </li>
+  </ul>
 
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2021-08-10T15:19:56-08:00"
-              content="2021-08-10">
-          08-10
-        </time>
+        <div class="reward-container">
+  <div>讓我有動力繼續寫</div>
+  <button onclick="var qr = document.getElementById('qr'); qr.style.display = (qr.style.display === 'none') ? 'block' : 'none';">
+    捐贈
+  </button>
+  <div id="qr" style="display: none;">
+      
+      <div style="display: inline-block;">
+        <img src="/images/paypal.png" alt="彭威翔 PayPal">
+        <p>PayPal</p>
+      </div>
+      
+      <div style="display: inline-block;">
+        <img src="/images/bitcoin.png" alt="彭威翔 比特幣">
+        <p>比特幣</p>
       </div>
 
-      <div class="post-title">
-          <a class="post-title-link" href="/post/hexo-web-push.html" itemprop="url">
-            <span itemprop="name">HEXO用RSS Feed自動網頁推播</span>
+  </div>
+</div>
+
+        
+
+  <div class="followme">
+    <p>歡迎關注我的其它發布管道</p>
+
+    <div class="social-list">
+
+        <div class="social-item">
+          <a target="_blank" class="social-link" href="/atom.xml">
+            <span class="icon">
+              <i class="fa fa-rss"></i>
+            </span>
+
+            <span class="label">RSS</span>
           </a>
-      </div>
-
-    </header>
-  </article>
-
+        </div>
     </div>
   </div>
+
+
+      <footer class="post-footer">
+
+        
+  <div class="post-widgets">
+    <div class="wp_rating">
+      <div id="wpac-rating"></div>
+    </div>
+  </div>
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/post/korea-jp-timeline.html" rel="prev" title="日治朝鮮反抗史">
+      <i class="fa fa-chevron-left"></i> 日治朝鮮反抗史
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
   
   
   
 
-  
 
 
 
           </div>
           
+</script>
+    
+  
+  <div class="comments">
+  <script src="https://utteranc.es/client.js" repo="wasonisgood/wasonisgood.github.io" issue-term="pathname" theme="github-light" crossorigin="anonymous" async></script>
+  </div>
+  
+  
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -293,6 +449,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo%E6%96%B0%E5%A2%9ERSS%E5%8A%9F%E8%83%BD"><span class="nav-number">1.</span> <span class="nav-text">Hexo新增RSS功能</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BB%80%E9%BA%BC%E6%98%AFRSS"><span class="nav-number">1.1.</span> <span class="nav-text">什麼是RSS</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8A%9F%E8%83%BD%E5%AF%A6%E4%BD%9C"><span class="nav-number">1.2.</span> <span class="nav-text">功能實作</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo%E9%85%8D%E7%BD%AEiZooto"><span class="nav-number">2.</span> <span class="nav-text">Hexo配置iZooto</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%A8%AD%E5%AE%9AiZooto-Zap%E8%A8%AD%E5%AE%9ARSS%E6%8E%A8%E6%92%AD"><span class="nav-number">3.</span> <span class="nav-text">設定iZooto+Zap設定RSS推播</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -319,7 +476,7 @@
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">11</span>
+        <span class="site-state-item-count">8</span>
         <span class="site-state-item-name">標籤</span></a>
       </div>
   </nav>
@@ -359,10 +516,10 @@
     
     
     <li class='pull-left' style="white-space:normal; text-align:left" >
-      <time title="創建時間" itemprop="dateCreated datePublished" datetime="2021-08-10T15:19:56-08:00">
-        08/10
+      <time title="創建時間" itemprop="dateCreated datePublished" datetime="2021-08-09T23:48:27-08:00">
+        08/09
       </time>
-      <a href="/post/hexo-web-push.html" title="HEXO用RSS Feed自動網頁推播">HEXO用RSS Feed自動網頁推播</a>
+      <a href="/post/hexo-web-rss-push.html" title="HEXO用RSS Feed自動網頁推播">HEXO用RSS Feed自動網頁推播</a>
       <br>
     </li>
     
