@@ -84,21 +84,27 @@
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-generator-feed</span><br></pre></td></tr></table></figure>
 
 
-<p>然後在 hexo 根目錄下的 檔中添加配置_config.yml</p>
+<p>然後在 hexo 根目錄下的 檔中添加配置<span id="inline-yellow">_config.yml</span></p>
 <figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">feed:</span></span><br><span class="line">    <span class="attr">type:</span> <span class="string">atom</span></span><br><span class="line">    <span class="attr">path:</span> <span class="string">atom.xml</span></span><br><span class="line">    <span class="attr">limit:</span> <span class="number">20</span></span><br></pre></td></tr></table></figure>
-
-
 <p>設定含義：</p>
 <ul>
 <li>type： RSS的類型（atom/rss2）</li>
-<li>path： 檔案路徑，預設是atom.xml</li>
+<li>path： 檔案路徑，預設是<span id="inline-yellow">atom.xml</span></li>
 <li>limit： 展示文章的數量，使用 0 或則 false 代表展示全部</li>
 <li>hub： URL of the PubSubHubbub hubs （如果使用不到可以為空）</li>
 <li>content： （可選）設置 可以在 RSS 檔中包含文章全部內容，預設：false</li>
 <li>content_limit： （可選）摘要中使用的帖子內容的預設長度。 僅在內容設置為false且未顯示自定義帖子描述時才使用。</li>
 <li>content_limit_delim： （可選）If content_limit is used to shorten post contents， only cut at the last occurrence of this delimiter before reaching the character limit. Not used by default.</li>
-<li>order_by： 訂閱內容的順序. （預設： -date）</li>
+<li>order_by： 訂閱內容的順序. （預設： -date）<br>然後在 theme 目錄下的 檔中添加配置<span id="inline-yellow">_config.yml</span><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">rss:</span> <span class="string">/atom.xml</span></span><br></pre></td></tr></table></figure>
+隨後重新生成博客靜態檔<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo clean &amp;&amp; hexo g</span><br></pre></td></tr></table></figure>
+<h2 id="Hexo配置iZooto"><a href="#Hexo配置iZooto" class="headerlink" title="Hexo配置iZooto"></a>Hexo配置iZooto</h2></li>
 </ul>
+<ol>
+<li>先在iZooto中進行<a href="https://panel.izooto.com/signup">註冊</a><br><img src="https://i.imgur.com/ZGLFn53.png" alt="iZooto中進行註冊"></li>
+<li>在儀表上點擊新增網站，然後輸入網域名稱<br><img src="https://i.imgur.com/K6Bug3g.png" alt="iZooto新增網站介面"></li>
+<li>在左邊點選Setting &gt; Setup，正中央有進行步驟</li>
+<li>把代碼放到<span id="inline-red">themes\next\layout_partials\head</span>中最後一行之前<br><img src="https://i.imgur.com/SMx2MOB.png" alt="iZooto代碼範本"></li>
+</ol>
 ]]></content>
   </entry>
 </search>

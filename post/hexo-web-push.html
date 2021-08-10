@@ -34,11 +34,15 @@
 <meta property="og:site_name" content="燃羽之翼，誰與逐鹿">
 <meta property="og:description" content="本篇先教大家在HEXO啟用RSS Feed，在設定RSS Update(文章更新)時，進行網頁推播 Hexo新增RSS功能什麼是RSSRSS的英文全稱是Really Simple Syndication，是一種透過XML(eXtensible Markup Language)特性所制定的格式，讓網站的管理者可以把網頁內容傳給訂閱戶。這是個有點像電子報和新聞群組(Newsgroup)的東西，但是賦予">
 <meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://i.imgur.com/ZGLFn53.png">
+<meta property="og:image" content="https://i.imgur.com/K6Bug3g.png">
+<meta property="og:image" content="https://i.imgur.com/SMx2MOB.png">
 <meta property="article:published_time" content="2021-08-10T04:32:56.000Z">
-<meta property="article:modified_time" content="2021-08-10T04:44:11.408Z">
+<meta property="article:modified_time" content="2021-08-10T05:29:26.673Z">
 <meta property="article:author" content="彭威翔">
 <meta property="article:tag" content="轉型正義,資訊,科法">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://i.imgur.com/ZGLFn53.png">
 
 <link rel="canonical" href="https://彭威翔.台灣/post/hexo-web-push.html">
 
@@ -229,7 +233,7 @@
               <span class="post-meta-item-text">發表於</span>
               
 
-              <time title="創建時間：2021-08-09 20:32:56 / 修改時間：20:44:11" itemprop="dateCreated datePublished" datetime="2021-08-09T20:32:56-08:00">2021-08-09</time>
+              <time title="創建時間：2021-08-09 20:32:56 / 修改時間：21:29:26" itemprop="dateCreated datePublished" datetime="2021-08-09T20:32:56-08:00">2021-08-09</time>
             </span>
 
           
@@ -237,7 +241,7 @@
               <span class="post-meta-item-icon">
                 <i class="fa fa-file-word-o"></i>
               </span>
-              <span>795</span>
+              <span>993</span>
             </span>
             <span class="post-meta-item" title="所需閱讀時間">
               <span class="post-meta-item-icon">
@@ -262,21 +266,27 @@
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-generator-feed</span><br></pre></td></tr></table></figure>
 
 
-<p>然後在 hexo 根目錄下的 檔中添加配置_config.yml</p>
+<p>然後在 hexo 根目錄下的 檔中添加配置<span id="inline-yellow">_config.yml</span></p>
 <figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">feed:</span></span><br><span class="line">    <span class="attr">type:</span> <span class="string">atom</span></span><br><span class="line">    <span class="attr">path:</span> <span class="string">atom.xml</span></span><br><span class="line">    <span class="attr">limit:</span> <span class="number">20</span></span><br></pre></td></tr></table></figure>
-
-
 <p>設定含義：</p>
 <ul>
 <li>type： RSS的類型（atom/rss2）</li>
-<li>path： 檔案路徑，預設是atom.xml</li>
+<li>path： 檔案路徑，預設是<span id="inline-yellow">atom.xml</span></li>
 <li>limit： 展示文章的數量，使用 0 或則 false 代表展示全部</li>
 <li>hub： URL of the PubSubHubbub hubs （如果使用不到可以為空）</li>
 <li>content： （可選）設置 可以在 RSS 檔中包含文章全部內容，預設：false</li>
 <li>content_limit： （可選）摘要中使用的帖子內容的預設長度。 僅在內容設置為false且未顯示自定義帖子描述時才使用。</li>
 <li>content_limit_delim： （可選）If content_limit is used to shorten post contents， only cut at the last occurrence of this delimiter before reaching the character limit. Not used by default.</li>
-<li>order_by： 訂閱內容的順序. （預設： -date）</li>
+<li>order_by： 訂閱內容的順序. （預設： -date）<br>然後在 theme 目錄下的 檔中添加配置<span id="inline-yellow">_config.yml</span><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">rss:</span> <span class="string">/atom.xml</span></span><br></pre></td></tr></table></figure>
+隨後重新生成博客靜態檔<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean &amp;&amp; hexo g</span><br></pre></td></tr></table></figure>
+<h2 id="Hexo配置iZooto"><a href="#Hexo配置iZooto" class="headerlink" title="Hexo配置iZooto"></a>Hexo配置iZooto</h2></li>
 </ul>
+<ol>
+<li>先在iZooto中進行<a target="_blank" rel="noopener external nofollow noreferrer" href="https://panel.izooto.com/signup">註冊</a><br><img src="https://i.imgur.com/ZGLFn53.png" alt="iZooto中進行註冊"></li>
+<li>在儀表上點擊新增網站，然後輸入網域名稱<br><img src="https://i.imgur.com/K6Bug3g.png" alt="iZooto新增網站介面"></li>
+<li>在左邊點選Setting &gt; Setup，正中央有進行步驟</li>
+<li>把代碼放到<span id="inline-red">themes\next\layout_partials\head</span>中最後一行之前<br><img src="https://i.imgur.com/SMx2MOB.png" alt="iZooto代碼範本"></li>
+</ol>
 
     </div>
 
@@ -418,7 +428,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo%E6%96%B0%E5%A2%9ERSS%E5%8A%9F%E8%83%BD"><span class="nav-number">1.</span> <span class="nav-text">Hexo新增RSS功能</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BB%80%E9%BA%BC%E6%98%AFRSS"><span class="nav-number">1.1.</span> <span class="nav-text">什麼是RSS</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8A%9F%E8%83%BD%E5%AF%A6%E4%BD%9C"><span class="nav-number">1.2.</span> <span class="nav-text">功能實作</span></a></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo%E6%96%B0%E5%A2%9ERSS%E5%8A%9F%E8%83%BD"><span class="nav-number">1.</span> <span class="nav-text">Hexo新增RSS功能</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BB%80%E9%BA%BC%E6%98%AFRSS"><span class="nav-number">1.1.</span> <span class="nav-text">什麼是RSS</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8A%9F%E8%83%BD%E5%AF%A6%E4%BD%9C"><span class="nav-number">1.2.</span> <span class="nav-text">功能實作</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo%E9%85%8D%E7%BD%AEiZooto"><span class="nav-number">2.</span> <span class="nav-text">Hexo配置iZooto</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -560,7 +570,7 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="所需總閱讀時間">4 分鐘</span>
+    <span title="所需總閱讀時間">5 分鐘</span>
 </div>
 <div class="translate-style">
 繁/簡：<a id="translateLink" href="javascript:translatePage();" rel="external nofollow noreferrer">簡體
