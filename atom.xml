@@ -6,7 +6,7 @@
   <link href="https://彭威翔.台灣/atom.xml" rel="self"/>
   
   <link href="https://彭威翔.台灣/"/>
-  <updated>2021-08-10T04:42:16.413Z</updated>
+  <updated>2021-08-10T04:44:11.408Z</updated>
   <id>https://彭威翔.台灣/</id>
   
   <author>
@@ -21,17 +21,11 @@
     <link href="https://彭威翔.台灣/post/hexo-web-push.html"/>
     <id>https://彭威翔.台灣/post/hexo-web-push.html</id>
     <published>2021-08-10T04:32:56.000Z</published>
-    <updated>2021-08-10T04:42:16.413Z</updated>
+    <updated>2021-08-10T04:44:11.408Z</updated>
     
     
-      
-      
-        
-        
     <summary type="html">&lt;p&gt;本篇先教大家在HEXO啟用RSS Feed，在設定RSS Update(文章更新)時，進行網頁推播&lt;/p&gt;
-&lt;h2 id=&quot;Hexo新增RSS功能&quot;&gt;&lt;a href=&quot;#Hexo新增RSS功能&quot; class=&quot;headerlink&quot;</summary>
-        
-      
+&lt;h2 id=&quot;Hexo新增RSS功能&quot;&gt;&lt;a href=&quot;#Hexo新增RSS功能&quot; class=&quot;headerlink&quot; title=&quot;Hexo新增RSS功能&quot;&gt;&lt;/a&gt;Hexo新增RSS功能&lt;/h2&gt;&lt;h3 id=&quot;什麼是RSS&quot;&gt;&lt;a href=&quot;#什麼是RSS&quot; class=&quot;headerlink&quot; title=&quot;什麼是RSS&quot;&gt;&lt;/a&gt;什麼是RSS&lt;/h3&gt;&lt;p&gt;RSS的英文全稱是Really Simple Syndication，是一種透過XML(eXtensible Markup Language)特性所制定的格式，讓網站的管理者可以把網頁內容傳給訂閱戶。這是個有點像電子報和新聞群組(Newsgroup)的東西，但是賦予讀者更大的自訂能力和更豐富的資料。&lt;br&gt;將RSS技術應用在獲取來源端的即時訊息是一個很重要的演進，對於使用者也可以很清楚的知道這些新聞是從何而來&lt;/p&gt;</summary>
     
     
     
