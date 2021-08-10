@@ -6,7 +6,7 @@
   <link href="https://彭威翔.台灣/atom.xml" rel="self"/>
   
   <link href="https://彭威翔.台灣/"/>
-  <updated>2021-08-10T05:31:09.585Z</updated>
+  <updated>2021-08-10T07:28:22.338Z</updated>
   <id>https://彭威翔.台灣/</id>
   
   <author>
@@ -20,8 +20,8 @@
     <title>HEXO用RSS Feed自動網頁推播</title>
     <link href="https://彭威翔.台灣/post/hexo-web-push.html"/>
     <id>https://彭威翔.台灣/post/hexo-web-push.html</id>
-    <published>2021-08-10T04:32:56.000Z</published>
-    <updated>2021-08-10T05:31:09.585Z</updated>
+    <published>2021-08-10T23:19:56.000Z</published>
+    <updated>2021-08-10T07:28:22.338Z</updated>
     
     
     <summary type="html">&lt;p&gt;本篇先教大家在HEXO啟用RSS Feed，在設定RSS Update(文章更新)時，進行網頁推播&lt;/p&gt;
@@ -29,6 +29,16 @@
     
     
     
+    <category term="技術帖" scheme="https://彭威翔.台灣/categories/%E6%8A%80%E8%A1%93%E5%B8%96/"/>
+    
+    
+    <category term="Hexo" scheme="https://彭威翔.台灣/tags/Hexo/"/>
+    
+    <category term="RSS" scheme="https://彭威翔.台灣/tags/RSS/"/>
+    
+    <category term="Zap" scheme="https://彭威翔.台灣/tags/Zap/"/>
+    
+    <category term="網頁推播" scheme="https://彭威翔.台灣/tags/%E7%B6%B2%E9%A0%81%E6%8E%A8%E6%92%AD/"/>
     
   </entry>
   
